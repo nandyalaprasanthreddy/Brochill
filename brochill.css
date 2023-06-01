@@ -1,0 +1,64 @@
+#third {
+  text-align: center;
+  background-image: linear-gradient(white, rgb(122, 209, 122));
+}
+#cart {
+  display: flex;
+  width: 80vw;
+  margin: auto;
+}
+#headers {
+  text-align: center;
+  background-color: chartreuse;
+}
+#lb {
+  display: flex;
+  background-color: black;
+  color: white;
+}
+li > a {
+  color: white;
+  text-decoration: none;
+}
+li > a:hover {
+  color: aquamarine;
+}
+#foot {
+  display: flex;
+
+  background-color: darkgray;
+}
+h2 {
+  width: 15vw;
+  margin: auto;
+}
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#second {
+  display: flex;
+  gap: 50px;
+  background-color: chartreuse;
+}
+#second > a {
+  text-decoration: none;
+}
+li > a:before {
+  content: "\25BA \0020";
+}
+#favs {
+  background-color: rgb(11, 143, 17);
+  border-bottom: 2px solid white;
+}
+a:hover {
+  background-color: rgb(43, 213, 156);
+}
+#favs > a {
+  text-decoration: none;
+  color: aliceblue;
+  margin: 5px;
+}
+#foot > a {
+  margin: 5px;
+}
